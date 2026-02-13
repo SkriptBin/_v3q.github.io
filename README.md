@@ -2,26 +2,27 @@
 
 ## SKEditor-like Windows `.exe` app
 
-This repo now includes a small desktop editor app in `skeditor_app/` that is designed to feel like a lightweight SKEditor-style text/code editor.
+A lightweight desktop text/code editor is included in `skeditor_app/`.
 
-### Features
+### What it supports
 - Dark/light theme toggle
-- Line numbers
-- New/Open/Save/Save As
-- Find and replace
-- Keyboard shortcuts (`Ctrl+N`, `Ctrl+O`, `Ctrl+S`, `Ctrl+F`, etc.)
+- Line numbers + status bar
+- New / Open / Save / Save As
+- Find + replace
+- Unsaved-change prompt on open/new/exit
+- Shortcuts (`Ctrl+N`, `Ctrl+O`, `Ctrl+S`, `Ctrl+Shift+S`, `Ctrl+F`, `Ctrl+H`)
 
-### Run locally (Python)
+### Run in Python
 ```bash
 cd skeditor_app
 python main.py
 ```
 
-### Build `.exe` on Windows
-Use Command Prompt in `skeditor_app`:
+### Build `.exe` on Windows (from extracted ZIP folder)
+Open **Command Prompt** in `skeditor_app` and run:
 ```bat
 build_exe.bat
 ```
 
-Output:
-- `dist/SKEditorLike.exe`
+Output executable:
+- `skeditor_app\dist\SKEditorLike.exe`
