@@ -1,0 +1,16 @@
+name: PancakeAbilities
+version: 1.0.0
+main: io.pancakesmp.pancakeabilities.PancakeAbilitiesPlugin
+api-version: '1.20'
+authors: _v3q
+description: Pancake SMP ability plugin with class-based pancake powers.
+
+commands:
+  pancake:
+    description: Give or manage pancake ability items.
+    usage: /pancake <chocolate|vanilla|ice|lava|honey|strawberry|blueberry|coconut|matcha> [level]
+    permission: pancake.admin
+
+permissions:
+  pancake.admin:
+    default: op
