@@ -1,0 +1,3 @@
+# tkinter ships with standard CPython on Windows.
+# Keep this file for future extension and reproducible tooling.
+pyinstaller>=6.0

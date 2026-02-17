@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+skeditor_app/.venv/
+skeditor_app/build/
+skeditor_app/dist/
+*.spec
